@@ -325,11 +325,11 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string></string>
+				<string>Gameplay</string>
 				<key>displayName</key>
 				<string>catapultarm</string>
 				<key>memberVarAssignmentName</key>
-				<string></string>
+				<string>_catapultArm</string>
 				<key>memberVarAssignmentType</key>
 				<integer>1</integer>
 				<key>properties</key>
@@ -576,7 +576,7 @@
 						<key>value</key>
 						<array>
 							<real>0.0</real>
-							<real>0.52799999713897705</real>
+							<real>0.0</real>
 							<integer>0</integer>
 							<integer>2</integer>
 							<integer>2</integer>
@@ -642,11 +642,11 @@
 			</dict>
 		</array>
 		<key>customClass</key>
-		<string></string>
+		<string>Gameplay</string>
 		<key>displayName</key>
 		<string>CCNode</string>
 		<key>memberVarAssignmentName</key>
-		<string></string>
+		<string>_physicsNode</string>
 		<key>memberVarAssignmentType</key>
 		<integer>1</integer>
 		<key>properties</key>
