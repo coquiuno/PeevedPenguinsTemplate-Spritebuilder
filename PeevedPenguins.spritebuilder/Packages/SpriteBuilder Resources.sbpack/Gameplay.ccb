@@ -146,6 +146,8 @@
 						<array/>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -325,7 +327,7 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string>Gameplay</string>
+				<string></string>
 				<key>displayName</key>
 				<string>catapultarm</string>
 				<key>memberVarAssignmentName</key>
@@ -349,11 +351,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.36041668057441711</real>
-							<real>0.63125002384185791</real>
+							<real>346</real>
+							<real>202</real>
 							<integer>0</integer>
-							<integer>2</integer>
-							<integer>2</integer>
+							<integer>0</integer>
+							<integer>0</integer>
 						</array>
 					</dict>
 					<dict>
@@ -432,8 +434,6 @@
 						<array/>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -467,11 +467,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.37395831942558289</real>
-							<real>0.29062500596046448</real>
+							<real>359</real>
+							<real>93</real>
 							<integer>0</integer>
-							<integer>2</integer>
-							<integer>2</integer>
+							<integer>0</integer>
+							<integer>0</integer>
 						</array>
 					</dict>
 					<dict>
