@@ -77,7 +77,7 @@
     
 }
 
-/*-(void) touchEnded:(CCTouch *)touch withEvent:(CCTouchEvent *)event{
+-(void) touchEnded:(CCTouch *)touch withEvent:(CCTouchEvent *)event{
     
     // when touches end, meaning the user releases their finger, release the catapult
     [self releaseCatapult];
@@ -90,7 +90,7 @@
     [self releaseCatapult];
     
 }
-*/
+
 -(void)launchPenguin{
     
     // loads the Penguin.ccb we have set up in Spritebuilder
