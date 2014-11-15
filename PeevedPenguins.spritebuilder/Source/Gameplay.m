@@ -12,6 +12,7 @@
     
     CCPhysicsNode *_physicsNode;
     CCNode *_catapultArm;
+    CCNode *_levelNode;
 }
 
 // is called when CCB file has completed loading
@@ -19,6 +20,10 @@
     
     // tell this scene to accept touches
     self.userInteractionEnabled = TRUE;
+    
+    CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
+    [_levelNode addChild:level];
+    
     
 }
 
