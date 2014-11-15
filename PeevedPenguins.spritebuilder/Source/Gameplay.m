@@ -67,7 +67,7 @@
 
 -(void)releaseCatapult{
     
-    if (_mouseJoint == nil) {
+    if (_mouseJoint != nil) {
         
         //releases the joint and lets the catapult snap back
         [_mouseJoint invalidate];
