@@ -57,7 +57,7 @@
     
 }
 
--(void)refly{
+-(void)Refly{
     
     // reload this level
     [[CCDirector sharedDirector] replaceScene:[CCBReader loadAsScene:@"Gameplay"]];
