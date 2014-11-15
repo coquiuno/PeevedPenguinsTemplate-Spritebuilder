@@ -55,8 +55,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>333</real>
-						<real>112</real>
+						<real>227</real>
+						<real>105</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -267,8 +267,6 @@
 					<real>500</real>
 				</dict>
 			</array>
-			<key>selected</key>
-			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -871,8 +869,8 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>346</real>
-											<real>201</real>
+											<real>240</real>
+											<real>194</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -1334,8 +1332,8 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>359</real>
-											<real>93</real>
+											<real>251</real>
+											<real>87</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -1442,11 +1440,11 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>0.19062499701976776</real>
-											<real>0.25937500596046448</real>
+											<real>88</real>
+											<real>79</real>
 											<integer>0</integer>
-											<integer>2</integer>
-											<integer>2</integer>
+											<integer>0</integer>
+											<integer>0</integer>
 										</array>
 									</dict>
 									<dict>
@@ -1471,6 +1469,8 @@
 										<string>bear.ccb</string>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 						</array>
 						<key>customClass</key>
