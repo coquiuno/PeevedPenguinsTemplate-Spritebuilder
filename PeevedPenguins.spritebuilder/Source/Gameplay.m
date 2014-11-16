@@ -39,7 +39,7 @@
 }
 
 // called on every touch in this scene
--(void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event  {
+//-(void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event  {
     
     
     
