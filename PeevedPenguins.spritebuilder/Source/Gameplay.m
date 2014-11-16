@@ -21,7 +21,7 @@
 }
 
 // is called when CCB file has completed loading
--(void)didLoadFromCCB{
+/*-(void)didLoadFromCCB{
     
     // tell this scene to accept touches
     self.userInteractionEnabled = TRUE;
@@ -33,10 +33,13 @@
     _physicsNode.debugDraw = TRUE;
     
     // nothing shall collide with our invisible nodes
-    //_pullbackNode.physicsBody.collisionMask = @[];
-    //_mouseJointNode.physicsBody.collisionMask = @[];
+    _pullbackNode.physicsBody.collisionMask = @[];
+    _mouseJointNode.physicsBody.collisionMask = @[];
+    
     
 }
+*/
+
 
 // called on every touch in this scene
 //-(void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event  {
@@ -93,6 +96,17 @@
     
 }
 */
+// is called when CCB file has completed loading
+- (void)didLoadFromCCB {
+    // tell this scene to accept touches
+    self.userInteractionEnabled = TRUE;
+}
+
+// called on every touch in this scene
+- (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
+    [self launchPenguin];
+}
+
 -(void)launchPenguin{
     
     // loads the Penguin.ccb we have set up in Spritebuilder
