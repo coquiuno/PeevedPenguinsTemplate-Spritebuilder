@@ -55,8 +55,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>255</real>
-						<real>103</real>
+						<real>129</real>
+						<real>98</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -164,8 +164,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>233</real>
-						<real>299</real>
+						<real>136.7578125</real>
+						<real>302.76953125</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -202,8 +202,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>0.0</real>
-						<real>14</real>
+						<real>-96.2421875</real>
+						<real>17.76953125</real>
 					</array>
 				</dict>
 				<dict>
@@ -869,8 +869,8 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>268</real>
-											<real>192</real>
+											<real>142</real>
+											<real>187</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -952,6 +952,8 @@
 										<array/>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -1030,8 +1032,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -1412,8 +1412,8 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>281</real>
-											<real>83</real>
+											<real>152</real>
+											<real>79</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -1520,7 +1520,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>88</real>
+											<real>38</real>
 											<real>79</real>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -1745,8 +1745,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>168</real>
-							<real>297</real>
+							<real>48</real>
+							<real>286</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
