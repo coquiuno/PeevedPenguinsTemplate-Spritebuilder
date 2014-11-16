@@ -14,9 +14,9 @@
     CCNode *_catapultArm;
     CCNode *_levelNode;
     CCNode *_contentNode;
-    CCNode *_pullbackNode;
-    CCNode *_mouseJointNode;
-    CCPhysicsJoint *_mouseJoint;
+    //CCNode *_pullbackNode;
+    //CCNode *_mouseJointNode;
+    //CCPhysicsJoint *_mouseJoint;
     
 }
 
@@ -33,30 +33,32 @@
     _physicsNode.debugDraw = TRUE;
     
     // nothing shall collide with our invisible nodes
-    _pullbackNode.physicsBody.collisionMask = @[];
-    _mouseJointNode.physicsBody.collisionMask = @[];
+    //_pullbackNode.physicsBody.collisionMask = @[];
+    //_mouseJointNode.physicsBody.collisionMask = @[];
     
 }
 
 // called on every touch in this scene
 -(void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event  {
     
-    CGPoint touchLocation = [touch locationInNode:_contentNode];
+    
+    
+    //CGPoint touchLocation = [touch locationInNode:_contentNode];
     
     // start catapult dragging when a touch inside of the catapult arm occurs
-    if (CGRectContainsPoint([_catapultArm boundingBox], touchLocation)){
+   // if (CGRectContainsPoint([_catapultArm boundingBox], touchLocation)){
         
         // move the mouseJointNode to the touch position
-        _mouseJointNode.position = touchLocation;
+        //_mouseJointNode.position = touchLocation;
         
         // setup a spring joint between the mouseJointNode and the catapultArm
-        _mouseJoint = [CCPhysicsJoint connectedSpringJointWithBodyA:_mouseJointNode.physicsBody bodyB:_catapultArm.physicsBody anchorA:ccp(0, 0) anchorB:ccp(142, 187) restLength:0.f stiffness:3000.f damping:150.f];
+        //_mouseJoint = [CCPhysicsJoint connectedSpringJointWithBodyA:_mouseJointNode.physicsBody bodyB:_catapultArm.physicsBody anchorA:ccp(0, 0) anchorB:ccp(142, 187) restLength:0.f stiffness:3000.f damping:150.f];
         
-    }
+    //}
     
-}
+//}
 
--(void)touchMoved:(CCTouch *)touch withEvent:(CCTouchEvent *)event{
+/*-(void)touchMoved:(CCTouch *)touch withEvent:(CCTouchEvent *)event{
     
     // whenever touches move, update the position of the mouseJointNode to the touch position
     CGPoint touchLocation = [touch locationInNode:_contentNode];
@@ -76,7 +78,7 @@
     }
     
 }
-
+*/
 /*-(void) touchEnded:(CCTouch *)touch withEvent:(CCTouchEvent *)event{
     
     // when touches end, meaning the user releases their finger, release the catapult
