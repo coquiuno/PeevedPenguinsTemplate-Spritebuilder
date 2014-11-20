@@ -121,14 +121,6 @@
 				</dict>
 				<dict>
 					<key>name</key>
-					<string>dampedSpringEnabled</string>
-					<key>type</key>
-					<string>Check</string>
-					<key>value</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>name</key>
 					<string>dampedSpringStiffness</string>
 					<key>type</key>
 					<string>Float</string>
@@ -147,6 +139,8 @@
 					</array>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>UUID</key>
@@ -709,8 +703,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
