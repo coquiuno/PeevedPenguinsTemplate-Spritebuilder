@@ -14,7 +14,7 @@
     CCNode *_catapultArm;
     CCNode *_levelNode;
     CCNode *_contentNode;
-    //CCNode *_pullbackNode;
+    CCNode *_pullbackNode;
     CCNode *_mouseJointNode;
     CCPhysicsJoint *_mouseJoint;
     
@@ -61,7 +61,7 @@
     
 }
 
-/*-(void)touchMoved:(CCTouch *)touch withEvent:(CCTouchEvent *)event{
+-(void)touchMoved:(CCTouch *)touch withEvent:(CCTouchEvent *)event{
     
     // whenever touches move, update the position of the mouseJointNode to the touch position
     CGPoint touchLocation = [touch locationInNode:_contentNode];
@@ -81,8 +81,8 @@
     }
     
 }
-*/
-/*-(void) touchEnded:(CCTouch *)touch withEvent:(CCTouchEvent *)event{
+
+-(void) touchEnded:(CCTouch *)touch withEvent:(CCTouchEvent *)event{
     
     // when touches end, meaning the user releases their finger, release the catapult
     [self releaseCatapult];
@@ -95,7 +95,7 @@
     [self releaseCatapult];
     
 }
-*/
+
 // is called when CCB file has completed loading
 /*- (void)didLoadFromCCB {
     // tell this scene to accept touches
