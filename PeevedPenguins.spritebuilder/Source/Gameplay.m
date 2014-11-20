@@ -20,6 +20,15 @@
     
 }
 
+
+int main(int argc, char *argv[]) {
+    
+    @autoreleasepool {
+        int retVal = UIApplicationMain(argc, argv, nil, @"AppController");
+        return retVal;
+    }
+}
+
 // is called when CCB file has completed loading
 -(void)didLoadFromCCB{
     
